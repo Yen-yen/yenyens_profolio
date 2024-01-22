@@ -8,6 +8,16 @@
   }
 }
 
+.heading-sub {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: right;
+  @include respond(phone) {
+    font-size: 3rem;
+  }
+}
+
 .heading-sec {
   &__mb-bg {
     margin-bottom: 11rem;
@@ -136,6 +146,18 @@
   color: #fff;
   font-size: 2.2rem;
   text-align: center;
+  width: 100%;
+  line-height: 1.6;
+
+  @include respond(phone) {
+    font-size: 2rem;
+  }
+}
+
+.text-primary-right {
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: right;
   width: 100%;
   line-height: 1.6;
 

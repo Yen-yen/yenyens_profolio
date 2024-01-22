@@ -78,6 +78,24 @@
       font-size: 1.5rem;
     }
   }
+  &__mail_link {
+    padding: 2.2rem 3rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #8b8e58;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: color .3s;
+
+    &:hover {
+      color: #babe79;
+    }
+    @include respond(tab-port) {
+      padding: 3rem 1.8rem;
+      font-size: 1.5rem;
+    }
+  }
 
   &__main-ham-menu-cont {
     display: none;
