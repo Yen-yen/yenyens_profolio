@@ -415,7 +415,7 @@ textarea {
     .projects__hobby-row-content-title {
       font-weight: 700;
       font-size: 2.8rem;
-      color: rgba(255, 255, 255, 0.75);
+      color: rgba(255, 255, 255, 0.852);
       margin-bottom: 2rem; }
       @media only screen and (max-width: 37.5em) {
         .projects__hobby-row-content-title {
